@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 14vh;
+    background-color: rgba(238, 233, 228, 0.886);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(86, 64, 49);
+    text-transform: uppercase;
+}
+.navbar h1{
+    font-size: 28px;
+    cursor: pointer;
+}
+.navbar ul{
+    display: flex;
+    gap: 90px;
+    list-style: none;
+    font-size: 24px;
+}
+li{
+    cursor: pointer;
+}
+.main{
+    height: 86vh;
+    width: 100%;
+    background: no-repeat url(./img/bg1.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.main h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 40px;
+    font-weight: 100;
+    word-spacing: 20px;
+    letter-spacing: 4px;
+}
+.shopNow{
+    padding: 10px 70px;
+    font-size: 20px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    color: rgb(86, 64, 49);
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.shopNow:hover{
+    transform:scale(1.05);
+}
+.item{
+    height: 100vh;
+    background-color: #eceae7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.bg{
+    height: 70vh;
+    width: 70%;
+    top: 150px;
+    background-color: rgb(220, 215, 208);
+    position: absolute;
+}
+.item h1{
+    font-size: 40px;
+    color: #a68e79;
+}
+.items{
+    height: 70vh;
+    width: 90%;
+    z-index: 1;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.earring, .bracelet, .necklace{
+    height: 50vh;
+    width: 25vw;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.img1{
+    height: 49.7vh;
+    background: no-repeat url(./img/earing.jpg);
+    background-size: cover;
+}
+.img2{
+    height: 49.7vh;
+    background: no-repeat url(./img/bracelet.jpg);
+    background-size: cover;
+}
+.img3{
+    height: 49.7vh;
+    background: no-repeat url(./img/necklace.png);
+    background-size: cover;
+}
+.earrings, .bracelets, .necklaces{
+    padding: 8px 70px;
+    font-size: 20px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background-color: #a68e79;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+.kindWord{
+    height: 90vh;
+    width: 100%;
+    background: no-repeat ;
+    background-image: url(./img/bg2.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    height: 50vh;
+    width: 50vw;
+    border: 2px solid rgb(119, 86, 61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:rgb(243, 239, 234);
+    gap: 20px;
+    text-align: center;
+    color: #97816d;
+}
+.content h3{
+    font-size: 30px;
+}
+.content p{
+    font-size: 20px;
+    padding: 0px 20px;
+}
+b{
+    font-size: 20px;
+}
+.newCollection{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+.leftBg{
+    position: absolute;
+    height: 100vh;
+    width: 30%;
+    background-color: rgb(226, 226, 226);
+    z-index: -1;
+}
+.new1{
+    height: 30vh;
+    width: 15vw;
+    background: no-repeat url(./img/newcollection-2.png);
+    background-size: cover;
+    position: absolute;
+    top: 200px;
+    left: 120px;
+}
+.new2{
+    height: 20vh;
+    width: 10vw;
+    background: no-repeat url(./img/newcollection-3.png);
+    background-size: cover;
+    position: absolute;
+    top: 440px;
+    left: 194px;
+}
+.new3{
+    height: 40vh;
+    width: 17vw;
+    background: no-repeat url(./img/newcollection-1.png);
+    background-size: cover;
+    position: absolute;
+    top: 250px;
+    left: 360px;
+}
+.right{
+    float: right;
+    height: 60vh;
+    width: 40vw;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 150px;
+    margin-right: 200px;
+    text-align: center;
+}
+.right h1{
+    font-size: 40px;
+}
+.right p{
+    font-size: 20px;
+}
+.signUp{
+    height: 80vh;
+    width: 100%;
+    background: no-repeat url(./img/bg3.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signUpContent{
+    height: 50vh;
+    width: 50vw;
+    border: 2px solid rgb(119, 86, 61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:rgb(243, 239, 234);
+    text-align: center;
+    font-size: 38px;
+    color: #49423b;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+}
+
+footer{
+    height: 20vh ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer ul{
+    list-style: none;
+    font-size: 24px;
+    color: #97816d;
+}
+footer h1, h3{
+    color:#49423b;
+}
+footer h3{
+    font-size: 25px;
+}
